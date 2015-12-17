@@ -1,0 +1,47 @@
+.main{
+	background: #878787;
+	width: 100%;
+  padding-top: 66px;
+  padding-bottom: 66px;
+
+}
+
+.key-board{
+	margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background: #747578;
+  padding: 59px;
+}
+
+.high{
+  height: 196px;
+  width: 100%;
+  padding: 1px;
+
+}
+
+.low{
+  
+}
+
+.key{
+  background: #ededed;
+  float: left;
+	width: 91px;
+	height: 192px;
+  border: 2px solid red;
+  margin-left:5px;
+}
+
+.key.active{
+  background: #dadada;
+}
+
+.key.high-note{
+  background: #030304;
+}
+
+.key.high-note.active{
+  background: #1b1c1c;
+}
