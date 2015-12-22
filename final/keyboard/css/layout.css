@@ -1,0 +1,78 @@
+.main{
+	background: #878787;
+	width: 100%;
+  padding-top: 66px;
+  padding-bottom: 66px;
+
+}
+
+canvas { 
+    display: inline-block; 
+    background: #202020; 
+    width: 50%;
+    height: 100px;
+    border: 2px solid blue;
+    /*margin-left: 14px;*/
+  }
+
+.canvas-wrapper{
+  width: 100%;
+}
+
+.key-board{
+	margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background: #747578;
+  padding: 0 59px;
+}
+
+.high{
+  height: 196px;
+  width: 100%;
+  padding: 1px;
+
+}
+
+.low{
+  
+}
+
+.key{
+  background: #ededed;
+  float: left;
+	width: 91px;
+	height: 192px;
+  border: 2px solid red;
+  margin-left:5px;
+}
+
+.key.active{
+  background: #dadada;
+}
+
+.key.high-note{
+  background: #030304;
+}
+
+.key.high-note.active{
+  background: #1b1c1c;
+}
+
+.record{
+  background: red;
+  float: left;
+  height: 100px;
+  width: 140px;
+  margin-left: 274px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+}
+
+.record.play{
+  background: green;
+  float: right;
+  margin-right: 278px;
+  margin-left:0px; 
+}
